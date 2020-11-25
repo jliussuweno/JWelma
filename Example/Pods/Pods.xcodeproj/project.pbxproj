@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B88AC0FB51AD2E61BEABDF0BCF42C8 /* Pods-JWelma_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EEC8085AF3F89A93B65BE8E34B3478 /* Pods-JWelma_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F27318F256E397B00B3D531 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F27318B256E397B00B3D531 /* .gitkeep */; };
+		6F273190256E397B00B3D531 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F27318D256E397B00B3D531 /* .gitkeep */; };
+		6F2731AB256E39E000B3D531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F273198256E39E000B3D531 /* ViewController.m */; };
+		6F2731AC256E39E000B3D531 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F273199256E39E000B3D531 /* RegisterViewController.m */; };
+		6F2731AD256E39E000B3D531 /* RegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F27319A256E39E000B3D531 /* RegisterViewController.h */; };
+		6F2731AE256E39E000B3D531 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F27319B256E39E000B3D531 /* ViewController.h */; };
+		6F2731AF256E39E000B3D531 /* CollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F27319D256E39E000B3D531 /* CollectionViewCell.h */; };
+		6F2731B0256E39E000B3D531 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27319E256E39E000B3D531 /* CollectionViewCell.m */; };
+		6F2731B1256E39E000B3D531 /* SceneDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F27319F256E39E000B3D531 /* SceneDelegate.h */; };
+		6F2731B2256E39E000B3D531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2731A0256E39E000B3D531 /* main.m */; };
+		6F2731B3256E39E000B3D531 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F2731A1256E39E000B3D531 /* Info.plist */; };
+		6F2731B4256E39E000B3D531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2731A2256E39E000B3D531 /* Assets.xcassets */; };
+		6F2731B5256E39E000B3D531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2731A4256E39E000B3D531 /* LaunchScreen.storyboard */; };
+		6F2731B6256E39E000B3D531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2731A6256E39E000B3D531 /* Main.storyboard */; };
+		6F2731B7256E39E000B3D531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2731A8256E39E000B3D531 /* AppDelegate.m */; };
+		6F2731B8256E39E000B3D531 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2731A9256E39E000B3D531 /* AppDelegate.h */; };
+		6F2731B9256E39E000B3D531 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2731AA256E39E000B3D531 /* SceneDelegate.m */; };
+		81BF168ACE0B51F19821106E64023AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9721872F281145FFCAFB1DBEE08BE37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98B8C62E91F3A8FDF1D6EA55646535C2 /* JWelma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91786AA2F3BEB9F48118499A4DE4A265 /* JWelma-dummy.m */; };
+		BECD6366B014FD55DDF9176FED50A236 /* JWelma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C08F5E5645C0877A2202E03B71CE1290 /* JWelma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C09AADC926EB37E3D494BAFA7037B5 /* Pods-JWelma_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA485A64B42077796D791DED7459D12 /* Pods-JWelma_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A8E8A716D093AE55AF880F37BE8232F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6ADE19AEE268C87092E4AED19063D70;
+			remoteInfo = JWelma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F270DADBBE52F2346226BCC6066C3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27EE19E61152E21F7F5810F91AFC0453 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2971D9A5791EDF84A97C2064CF469E25 /* JWelma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWelma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4561F94B1EDCBEF1133B3532022072 /* JWelma-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWelma-Info.plist"; sourceTree = "<group>"; };
+		3CA485A64B42077796D791DED7459D12 /* Pods-JWelma_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWelma_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F4B95BE14550DBD1CC50915E0FEE633 /* Pods-JWelma_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWelma_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B248200C5BA325F8D8115ED55312916 /* Pods-JWelma_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWelma_Tests-Info.plist"; sourceTree = "<group>"; };
+		60EEC8085AF3F89A93B65BE8E34B3478 /* Pods-JWelma_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWelma_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F27318B256E397B00B3D531 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F27318D256E397B00B3D531 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F273198256E39E000B3D531 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F273199256E39E000B3D531 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		6F27319A256E39E000B3D531 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		6F27319B256E39E000B3D531 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F27319D256E39E000B3D531 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		6F27319E256E39E000B3D531 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		6F27319F256E39E000B3D531 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6F2731A0256E39E000B3D531 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F2731A1256E39E000B3D531 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2731A2256E39E000B3D531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2731A5256E39E000B3D531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2731A7256E39E000B3D531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		6F2731A8256E39E000B3D531 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F2731A9256E39E000B3D531 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F2731AA256E39E000B3D531 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AD3DED260159788ED6E5D3F6EDDF03F /* Pods-JWelma_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWelma_Tests.modulemap"; sourceTree = "<group>"; };
+		8100DA21086BF583FB13B93328A222F2 /* JWelma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWelma.modulemap; sourceTree = "<group>"; };
+		8DA8E285BB7385D6FB4C9C4C2B9461A9 /* JWelma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWelma.debug.xcconfig; sourceTree = "<group>"; };
+		91786AA2F3BEB9F48118499A4DE4A265 /* JWelma-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWelma-dummy.m"; sourceTree = "<group>"; };
+		998D0FE32F3D0E089E8C5E38D955452E /* Pods-JWelma_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWelma_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E789F1D27AB2718D3A7EEA2A2A76DC7 /* JWelma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWelma.release.xcconfig; sourceTree = "<group>"; };
+		AFFE66463D19E099B082B240FE1D397E /* JWelma.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JWelma.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B76B93A04EEA676E452E54EB75356A47 /* Pods-JWelma_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWelma_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C08F5E5645C0877A2202E03B71CE1290 /* JWelma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWelma-umbrella.h"; sourceTree = "<group>"; };
+		CB9D28D056EB26AA7C5B935F0A8DED25 /* Pods-JWelma_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWelma_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE862301D4AE38F69EB914DAC4911FAA /* Pods-JWelma_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWelma_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E60C439F2A28AAAA5C0E4415F0A89170 /* Pods_JWelma_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWelma_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF44BB0668453A14FD9D018A549032FA /* JWelma-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWelma-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4682E5DA97DAD314A092F6D5498227DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9721872F281145FFCAFB1DBEE08BE37A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63F2AA59F66080417BC0776526A33CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BF168ACE0B51F19821106E64023AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C56A9FCF501756A4421B80641954D6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD0CA7DF5EBBFD662EC1EFFF0D3CDAA4 /* Pods-JWelma_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F27318A256E397B00B3D531 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6F27318B256E397B00B3D531 /* .gitkeep */,
+			);
+			name = Assets;
+			path = JWelma/Assets;
+			sourceTree = "<group>";
+		};
+		6F27318C256E397B00B3D531 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F2731A9256E39E000B3D531 /* AppDelegate.h */,
+				6F2731A8256E39E000B3D531 /* AppDelegate.m */,
+				6F2731A2256E39E000B3D531 /* Assets.xcassets */,
+				6F2731A3256E39E000B3D531 /* Base.lproj */,
+				6F273197256E39E000B3D531 /* Controller */,
+				6F27319C256E39E000B3D531 /* CustomCellHelper */,
+				6F2731A1256E39E000B3D531 /* Info.plist */,
+				6F2731A0256E39E000B3D531 /* main.m */,
+				6F27319F256E39E000B3D531 /* SceneDelegate.h */,
+				6F2731AA256E39E000B3D531 /* SceneDelegate.m */,
+				6F27318D256E397B00B3D531 /* .gitkeep */,
+			);
+			name = Classes;
+			path = JWelma/Classes;
+			sourceTree = "<group>";
+		};
+		6F273197256E39E000B3D531 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F273198256E39E000B3D531 /* ViewController.m */,
+				6F273199256E39E000B3D531 /* RegisterViewController.m */,
+				6F27319A256E39E000B3D531 /* RegisterViewController.h */,
+				6F27319B256E39E000B3D531 /* ViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F27319C256E39E000B3D531 /* CustomCellHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6F27319D256E39E000B3D531 /* CollectionViewCell.h */,
+				6F27319E256E39E000B3D531 /* CollectionViewCell.m */,
+			);
+			path = CustomCellHelper;
+			sourceTree = "<group>";
+		};
+		6F2731A3256E39E000B3D531 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6F2731A4256E39E000B3D531 /* LaunchScreen.storyboard */,
+				6F2731A6256E39E000B3D531 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A3F1C4DC2D600A1A36E78CF0CB9DD0F0 /* JWelma */ = {
+			isa = PBXGroup;
+			children = (
+				6F27318A256E397B00B3D531 /* Assets */,
+				6F27318C256E397B00B3D531 /* Classes */,
+				D2A3DC7617F787AF712CAFA29E3CB21B /* Pod */,
+				BB8C9957D5360160AC9531E1438E7769 /* Support Files */,
+			);
+			name = JWelma;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A93E82A3F877A5C9660BF60C55123263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2971D9A5791EDF84A97C2064CF469E25 /* JWelma.framework */,
+				E60C439F2A28AAAA5C0E4415F0A89170 /* Pods_JWelma_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0CA7DF5EBBFD662EC1EFFF0D3CDAA4 /* Pods-JWelma_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3DED260159788ED6E5D3F6EDDF03F /* Pods-JWelma_Tests.modulemap */,
+				DE862301D4AE38F69EB914DAC4911FAA /* Pods-JWelma_Tests-acknowledgements.markdown */,
+				998D0FE32F3D0E089E8C5E38D955452E /* Pods-JWelma_Tests-acknowledgements.plist */,
+				3CA485A64B42077796D791DED7459D12 /* Pods-JWelma_Tests-dummy.m */,
+				B76B93A04EEA676E452E54EB75356A47 /* Pods-JWelma_Tests-frameworks.sh */,
+				5B248200C5BA325F8D8115ED55312916 /* Pods-JWelma_Tests-Info.plist */,
+				60EEC8085AF3F89A93B65BE8E34B3478 /* Pods-JWelma_Tests-umbrella.h */,
+				3F4B95BE14550DBD1CC50915E0FEE633 /* Pods-JWelma_Tests.debug.xcconfig */,
+				CB9D28D056EB26AA7C5B935F0A8DED25 /* Pods-JWelma_Tests.release.xcconfig */,
+			);
+			name = "Pods-JWelma_Tests";
+			path = "Target Support Files/Pods-JWelma_Tests";
+			sourceTree = "<group>";
+		};
+		BB8C9957D5360160AC9531E1438E7769 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8100DA21086BF583FB13B93328A222F2 /* JWelma.modulemap */,
+				91786AA2F3BEB9F48118499A4DE4A265 /* JWelma-dummy.m */,
+				2B4561F94B1EDCBEF1133B3532022072 /* JWelma-Info.plist */,
+				FF44BB0668453A14FD9D018A549032FA /* JWelma-prefix.pch */,
+				C08F5E5645C0877A2202E03B71CE1290 /* JWelma-umbrella.h */,
+				8DA8E285BB7385D6FB4C9C4C2B9461A9 /* JWelma.debug.xcconfig */,
+				9E789F1D27AB2718D3A7EEA2A2A76DC7 /* JWelma.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JWelma";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FF50750317D1E2A6B427A0F6DC226CFF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A93E82A3F877A5C9660BF60C55123263 /* Products */,
+				6C56A9FCF501756A4421B80641954D6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2A3DC7617F787AF712CAFA29E3CB21B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE66463D19E099B082B240FE1D397E /* JWelma.podspec */,
+				27EE19E61152E21F7F5810F91AFC0453 /* LICENSE */,
+				21F270DADBBE52F2346226BCC6066C3C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FF50750317D1E2A6B427A0F6DC226CFF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3F1C4DC2D600A1A36E78CF0CB9DD0F0 /* JWelma */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D79C290ECF61A14F1C4A611022682B1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B88AC0FB51AD2E61BEABDF0BCF42C8 /* Pods-JWelma_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D833754E51BD6BB1A9C42335F4C098A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2731AD256E39E000B3D531 /* RegisterViewController.h in Headers */,
+				6F2731AF256E39E000B3D531 /* CollectionViewCell.h in Headers */,
+				6F2731B1256E39E000B3D531 /* SceneDelegate.h in Headers */,
+				BECD6366B014FD55DDF9176FED50A236 /* JWelma-umbrella.h in Headers */,
+				6F2731AE256E39E000B3D531 /* ViewController.h in Headers */,
+				6F2731B8256E39E000B3D531 /* AppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B507EE511B2D34B9DB0D57DE3D4F5AD /* Pods-JWelma_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75798818DA990F5D827DD99ED67EAEC3 /* Build configuration list for PBXNativeTarget "Pods-JWelma_Tests" */;
+			buildPhases = (
+				D79C290ECF61A14F1C4A611022682B1B /* Headers */,
+				01042533260476C8CFC5EF117CF8B3CF /* Sources */,
+				D63F2AA59F66080417BC0776526A33CB /* Frameworks */,
+				03EC356C8458959323C4BAD403E0A930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823E1B78C227E9CA62515CE2A651464F /* PBXTargetDependency */,
+			);
+			name = "Pods-JWelma_Tests";
+			productName = "Pods-JWelma_Tests";
+			productReference = E60C439F2A28AAAA5C0E4415F0A89170 /* Pods_JWelma_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6ADE19AEE268C87092E4AED19063D70 /* JWelma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F89A43DE760CC61FB716BAD288AE07 /* Build configuration list for PBXNativeTarget "JWelma" */;
+			buildPhases = (
+				D833754E51BD6BB1A9C42335F4C098A8 /* Headers */,
+				8CBF3754251A7FC4C9E0D21E55D4AEE9 /* Sources */,
+				4682E5DA97DAD314A092F6D5498227DE /* Frameworks */,
+				AB6B4B1BE331747F128728A1F957E800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWelma;
+			productName = JWelma;
+			productReference = 2971D9A5791EDF84A97C2064CF469E25 /* JWelma.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A93E82A3F877A5C9660BF60C55123263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6ADE19AEE268C87092E4AED19063D70 /* JWelma */,
+				5B507EE511B2D34B9DB0D57DE3D4F5AD /* Pods-JWelma_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EC356C8458959323C4BAD403E0A930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6B4B1BE331747F128728A1F957E800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F27318F256E397B00B3D531 /* .gitkeep in Resources */,
+				6F273190256E397B00B3D531 /* .gitkeep in Resources */,
+				6F2731B4256E39E000B3D531 /* Assets.xcassets in Resources */,
+				6F2731B6256E39E000B3D531 /* Main.storyboard in Resources */,
+				6F2731B5256E39E000B3D531 /* LaunchScreen.storyboard in Resources */,
+				6F2731B3256E39E000B3D531 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01042533260476C8CFC5EF117CF8B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C09AADC926EB37E3D494BAFA7037B5 /* Pods-JWelma_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBF3754251A7FC4C9E0D21E55D4AEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2731B2256E39E000B3D531 /* main.m in Sources */,
+				6F2731AB256E39E000B3D531 /* ViewController.m in Sources */,
+				6F2731B7256E39E000B3D531 /* AppDelegate.m in Sources */,
+				6F2731B9256E39E000B3D531 /* SceneDelegate.m in Sources */,
+				6F2731AC256E39E000B3D531 /* RegisterViewController.m in Sources */,
+				6F2731B0256E39E000B3D531 /* CollectionViewCell.m in Sources */,
+				98B8C62E91F3A8FDF1D6EA55646535C2 /* JWelma-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		823E1B78C227E9CA62515CE2A651464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWelma;
+			target = C6ADE19AEE268C87092E4AED19063D70 /* JWelma */;
+			targetProxy = 1A8E8A716D093AE55AF880F37BE8232F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F2731A4256E39E000B3D531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2731A5256E39E000B3D531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2731A6256E39E000B3D531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2731A7256E39E000B3D531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3591D4E9D58B9B298DC0C93F08B54236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9D28D056EB26AA7C5B935F0A8DED25 /* Pods-JWelma_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWelma_Tests/Pods-JWelma_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWelma_Tests/Pods-JWelma_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		51389A1D797EBB5C98988B063BCF2559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E789F1D27AB2718D3A7EEA2A2A76DC7 /* JWelma.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWelma/JWelma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWelma/JWelma-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWelma/JWelma.modulemap";
+				PRODUCT_MODULE_NAME = JWelma;
+				PRODUCT_NAME = JWelma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61DA8A2E635FBD1976268CCEAE3F2410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA8E285BB7385D6FB4C9C4C2B9461A9 /* JWelma.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWelma/JWelma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWelma/JWelma-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWelma/JWelma.modulemap";
+				PRODUCT_MODULE_NAME = JWelma;
+				PRODUCT_NAME = JWelma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		696F4BF893887B1A02844400AA60A4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4B95BE14550DBD1CC50915E0FEE633 /* Pods-JWelma_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWelma_Tests/Pods-JWelma_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWelma_Tests/Pods-JWelma_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75798818DA990F5D827DD99ED67EAEC3 /* Build configuration list for PBXNativeTarget "Pods-JWelma_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696F4BF893887B1A02844400AA60A4D2 /* Debug */,
+				3591D4E9D58B9B298DC0C93F08B54236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F89A43DE760CC61FB716BAD288AE07 /* Build configuration list for PBXNativeTarget "JWelma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DA8A2E635FBD1976268CCEAE3F2410 /* Debug */,
+				51389A1D797EBB5C98988B063BCF2559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

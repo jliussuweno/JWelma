@@ -1,0 +1,22 @@
+{
+  "name": "JWelma",
+  "version": "0.1.0",
+  "summary": "A short description of JWelma.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jliussuweno/JWelma",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jliussuweno": "jliuss@live.com"
+  },
+  "source": {
+    "git": "https://github.com/jliussuweno/JWelma.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWelma/Classes/**/*"
+}

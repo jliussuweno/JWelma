@@ -1,0 +1,16 @@
+PODS:
+  - JWelma (0.1.0)
+
+DEPENDENCIES:
+  - JWelma (from `../`)
+
+EXTERNAL SOURCES:
+  JWelma:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWelma: 3611cde19d80d2896a31553b02781e9ecb2c6322
+
+PODFILE CHECKSUM: 2687058601b5d8ff09abd9e969385d4b4ad1523f
+
+COCOAPODS: 1.10.0
