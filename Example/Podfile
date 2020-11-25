@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JWelma_Tests' do
+  pod 'JWelma', :path => '../'
+  
+  
+end
